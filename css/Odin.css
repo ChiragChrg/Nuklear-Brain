@@ -12,7 +12,7 @@
     width: 100%;
     height: 100vh;
     display: table;
-    background-image: url(../assets/images/odin1.png);
+    background-image: url(../assets/images/odin.png);
     clip-path:polygon(0% 0%, 100% 0%, 100% 74%, 0% 99%);
     background-size: cover;
     background-attachment: fixed;
