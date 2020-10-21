@@ -415,13 +415,14 @@
 
 .post-box{
     padding-left: 2%;
-
+    
 }
 
 .post{
     width: 98%;
     max-width: 98rem;
     padding: 12%;
+    padding-bottom: 12%;
     background-color: #fff;
     box-shadow: .5rem .5rem 3rem 1px rgba(0, 0, 0, 0.5);
     display: flex;
