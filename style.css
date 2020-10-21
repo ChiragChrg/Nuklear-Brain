@@ -314,11 +314,11 @@
     /* margin-bottom: auto ; */
     position: absolute;
     border-radius: 0px 50px 0px 0px;
-    clip-path:polygon(0% 0%, 100% 0%, 100% 82%, 0% 100%);
+    clip-path:polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
     width: 50%;
-    height: 70%;  /*calc(100% - 50%) */
+    height: 55%;  /*calc(100% - 50%) */
     background: linear-gradient(270deg,#01defc,#7700ff);
-    top: 80px;
+    top: 85px;
     left: -100%;
     transition: 0.5s;
     position: fixed;
@@ -414,21 +414,20 @@
 /* POST */
 
 .post-box{
-    padding-left: 2%;
-    
+    padding-left: 2%;   
 }
 
 .post{
     width: 98%;
     max-width: 98rem;
     padding: 12%;
-    padding-bottom: 12%;
     background-color: #fff;
     box-shadow: .5rem .5rem 3rem 1px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-content: center;
     border-radius: .8rem;
+    margin-bottom:4%;
 }
 
 .post-img{
@@ -490,6 +489,7 @@
     background: linear-gradient(45deg,#01defc,#7700ff);
     border-radius: 25px;
     box-shadow: .5rem .5rem 3rem 1px rgba(0, 0, 0, 0.5);
+    transform: translateX(16%);
 }
 
 
